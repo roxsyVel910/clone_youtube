@@ -6,6 +6,7 @@ import Loader from "./Loader";
 
 
 const Videos = ({ videos, direction }) => {
+    console.log("videos", videos)
   if(!videos?.length) return <Loader />;
   
   return (

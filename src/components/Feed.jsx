@@ -3,6 +3,7 @@ import { Box, Stack, Typography } from "@mui/material";
 
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 import Sidebar from "./Sidebar";
+import Videos from "./Videos";
 
 
 //import { Videos, Sidebar } from "./";
@@ -32,7 +33,7 @@ const Feed = () => {
           {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
         </Typography>
 
-        {/*<Videos videos={videos} />*/}
+        <Videos videos={videos} />
       </Box>
     </Stack>
   );
